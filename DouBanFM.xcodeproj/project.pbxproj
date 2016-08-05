@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F7EE227F3F444827464013D /* Pods_DouBanFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAC8A49243F2FDF48386CB6 /* Pods_DouBanFM.framework */; };
+		BC38DDAC1D49F1CB008638A4 /* DouBanFM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38DDAB1D49F1CB008638A4 /* DouBanFM.swift */; };
+		BC530B9F1D488BDB000A9B68 /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC530B9E1D488BDB000A9B68 /* HttpController.swift */; };
+		BC737DE61D4A52270079A206 /* GNButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC737DE51D4A52270079A206 /* GNButton.swift */; };
+		BC7549071D4768F70083E287 /* GNImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7549061D4768F70083E287 /* GNImage.swift */; };
+		BC81EABB1D4A7D8D00AA0677 /* GNOrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC81EABA1D4A7D8D00AA0677 /* GNOrderButton.swift */; };
+		BCCAC9F01D47A4FC0057116F /* ChannelTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCAC9EF1D47A4FC0057116F /* ChannelTableView.swift */; };
+		BCF5EB051D47118D009E5A5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5EB041D47118D009E5A5D /* AppDelegate.swift */; };
+		BCF5EB071D47118D009E5A5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF5EB061D47118D009E5A5D /* ViewController.swift */; };
+		BCF5EB0A1D47118D009E5A5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF5EB081D47118D009E5A5D /* Main.storyboard */; };
+		BCF5EB0C1D47118D009E5A5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCF5EB0B1D47118D009E5A5D /* Assets.xcassets */; };
+		BCF5EB0F1D47118D009E5A5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCF5EB0D1D47118D009E5A5D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B66BAA504873C1BC085720C /* Pods-DouBanFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBanFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-DouBanFM/Pods-DouBanFM.release.xcconfig"; sourceTree = "<group>"; };
+		BC38DDAB1D49F1CB008638A4 /* DouBanFM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DouBanFM.swift; sourceTree = "<group>"; };
+		BC530B9E1D488BDB000A9B68 /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
+		BC737DE51D4A52270079A206 /* GNButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNButton.swift; sourceTree = "<group>"; };
+		BC7549061D4768F70083E287 /* GNImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNImage.swift; sourceTree = "<group>"; };
+		BC81EABA1D4A7D8D00AA0677 /* GNOrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNOrderButton.swift; sourceTree = "<group>"; };
+		BCCAC9EF1D47A4FC0057116F /* ChannelTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChannelTableView.swift; path = ../ChannelTableView.swift; sourceTree = "<group>"; };
+		BCF5EB011D47118D009E5A5D /* DouBanFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouBanFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCF5EB041D47118D009E5A5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCF5EB061D47118D009E5A5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCF5EB091D47118D009E5A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCF5EB0B1D47118D009E5A5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCF5EB0E1D47118D009E5A5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCF5EB101D47118D009E5A5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE959371311EE37CDA67CAC2 /* Pods-DouBanFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouBanFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DouBanFM/Pods-DouBanFM.debug.xcconfig"; sourceTree = "<group>"; };
+		FCAC8A49243F2FDF48386CB6 /* Pods_DouBanFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DouBanFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCF5EAFE1D47118D009E5A5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7EE227F3F444827464013D /* Pods_DouBanFM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8097195EFB04C7E8347B61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE959371311EE37CDA67CAC2 /* Pods-DouBanFM.debug.xcconfig */,
+				0B66BAA504873C1BC085720C /* Pods-DouBanFM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCF5EAF81D47118D009E5A5D = {
+			isa = PBXGroup;
+			children = (
+				BCF5EB031D47118D009E5A5D /* DouBanFM */,
+				BCF5EB021D47118D009E5A5D /* Products */,
+				2B8097195EFB04C7E8347B61 /* Pods */,
+				E0BCC0EA7714EA16BB59CF2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCF5EB021D47118D009E5A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCF5EB011D47118D009E5A5D /* DouBanFM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCF5EB031D47118D009E5A5D /* DouBanFM */ = {
+			isa = PBXGroup;
+			children = (
+				BCF5EB041D47118D009E5A5D /* AppDelegate.swift */,
+				BCF5EB061D47118D009E5A5D /* ViewController.swift */,
+				BCCAC9EF1D47A4FC0057116F /* ChannelTableView.swift */,
+				BC38DDAB1D49F1CB008638A4 /* DouBanFM.swift */,
+				BC530B9E1D488BDB000A9B68 /* HttpController.swift */,
+				BC7549061D4768F70083E287 /* GNImage.swift */,
+				BC737DE51D4A52270079A206 /* GNButton.swift */,
+				BC81EABA1D4A7D8D00AA0677 /* GNOrderButton.swift */,
+				BCF5EB081D47118D009E5A5D /* Main.storyboard */,
+				BCF5EB0B1D47118D009E5A5D /* Assets.xcassets */,
+				BCF5EB0D1D47118D009E5A5D /* LaunchScreen.storyboard */,
+				BCF5EB101D47118D009E5A5D /* Info.plist */,
+			);
+			path = DouBanFM;
+			sourceTree = "<group>";
+		};
+		E0BCC0EA7714EA16BB59CF2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCAC8A49243F2FDF48386CB6 /* Pods_DouBanFM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCF5EB001D47118D009E5A5D /* DouBanFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCF5EB131D47118D009E5A5D /* Build configuration list for PBXNativeTarget "DouBanFM" */;
+			buildPhases = (
+				F1C7E1EC63D64CB03963EF88 /* [CP] Check Pods Manifest.lock */,
+				BCF5EAFD1D47118D009E5A5D /* Sources */,
+				BCF5EAFE1D47118D009E5A5D /* Frameworks */,
+				BCF5EAFF1D47118D009E5A5D /* Resources */,
+				B4E261C474815CEF4DC2D511 /* [CP] Embed Pods Frameworks */,
+				B0D446D1D8C8284A5C808099 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DouBanFM;
+			productName = DouBanFM;
+			productReference = BCF5EB011D47118D009E5A5D /* DouBanFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCF5EAF91D47118D009E5A5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhuSunGongZuoShi;
+				TargetAttributes = {
+					BCF5EB001D47118D009E5A5D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BCF5EAFC1D47118D009E5A5D /* Build configuration list for PBXProject "DouBanFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCF5EAF81D47118D009E5A5D;
+			productRefGroup = BCF5EB021D47118D009E5A5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCF5EB001D47118D009E5A5D /* DouBanFM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCF5EAFF1D47118D009E5A5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCF5EB0F1D47118D009E5A5D /* LaunchScreen.storyboard in Resources */,
+				BCF5EB0C1D47118D009E5A5D /* Assets.xcassets in Resources */,
+				BCF5EB0A1D47118D009E5A5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0D446D1D8C8284A5C808099 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouBanFM/Pods-DouBanFM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E261C474815CEF4DC2D511 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DouBanFM/Pods-DouBanFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C7E1EC63D64CB03963EF88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCF5EAFD1D47118D009E5A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7549071D4768F70083E287 /* GNImage.swift in Sources */,
+				BC38DDAC1D49F1CB008638A4 /* DouBanFM.swift in Sources */,
+				BCCAC9F01D47A4FC0057116F /* ChannelTableView.swift in Sources */,
+				BC81EABB1D4A7D8D00AA0677 /* GNOrderButton.swift in Sources */,
+				BC530B9F1D488BDB000A9B68 /* HttpController.swift in Sources */,
+				BC737DE61D4A52270079A206 /* GNButton.swift in Sources */,
+				BCF5EB071D47118D009E5A5D /* ViewController.swift in Sources */,
+				BCF5EB051D47118D009E5A5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCF5EB081D47118D009E5A5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF5EB091D47118D009E5A5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCF5EB0D1D47118D009E5A5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCF5EB0E1D47118D009E5A5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCF5EB111D47118D009E5A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCF5EB121D47118D009E5A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCF5EB141D47118D009E5A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE959371311EE37CDA67CAC2 /* Pods-DouBanFM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DouBanFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhusungongzuoshi.DouBanFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCF5EB151D47118D009E5A5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B66BAA504873C1BC085720C /* Pods-DouBanFM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DouBanFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhusungongzuoshi.DouBanFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCF5EAFC1D47118D009E5A5D /* Build configuration list for PBXProject "DouBanFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF5EB111D47118D009E5A5D /* Debug */,
+				BCF5EB121D47118D009E5A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCF5EB131D47118D009E5A5D /* Build configuration list for PBXNativeTarget "DouBanFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCF5EB141D47118D009E5A5D /* Debug */,
+				BCF5EB151D47118D009E5A5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCF5EAF91D47118D009E5A5D /* Project object */;
+}
